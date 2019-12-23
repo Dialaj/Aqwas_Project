@@ -21,6 +21,8 @@
 
 - Material ui React
 - (https://material-ui.com/getting-started/installation/)
+- Google Maps react using the google api key 
+- https://www.npmjs.com/package/google-maps-react
 
 
 
