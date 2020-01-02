@@ -58,7 +58,7 @@ export class MapContainer extends Component {
     );
     console.log(res);
     curState.suggestion.name = res.data.name;
-    curState.suggestion.cat = res.data.catName;
+    curState.suggestion.catName = res.data.catName;
     curState.suggestion.rate = res.data.rate;
     this.setState(curState);
   };
@@ -69,8 +69,8 @@ export class MapContainer extends Component {
       <>
         <Navbar />
         <BottomNavigation />
-        <h3>{suggestion.name}</h3>
-        <h3>{suggestion.rate}/10</h3>
+        <h3><center>{suggestion.name}</center></h3>
+        <h3><center>{suggestion.rate}/10 </center></h3>
         <Map
           google={this.props.google}
           zoom={6}
