@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Suggestions from './Suggestions';
 import { Button, Container } from '@material-ui/core';
 import logo from '../image/logo.png'
 import TuneIcon from '@material-ui/icons/Tune';

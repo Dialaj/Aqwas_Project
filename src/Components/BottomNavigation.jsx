@@ -30,8 +30,6 @@ export default function Bottomnavigation() {
       showLabels
       className={classes.root}
     >
-
-
       <BottomNavigationAction icon={<LocationOnIcon />} />
       <BottomNavigationAction icon={<OpenInBrowserIcon />} />
       <BottomNavigationAction icon={<FavoriteIcon />} />
